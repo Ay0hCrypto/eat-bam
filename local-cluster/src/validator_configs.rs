@@ -88,6 +88,14 @@ pub fn safe_clone_config(config: &ValidatorConfig) -> ValidatorConfig {
         tip_manager_config: config.tip_manager_config.clone(),
         preallocated_bundle_cost: config.preallocated_bundle_cost,
         bam_url: config.bam_url.clone(),
+
+        // Allnodes configuration
+        identity_path: config.identity_path.clone(),
+        use_mostly_confirmed_threshold: config.use_mostly_confirmed_threshold,
+        mostly_confirmed_threshold_config_path: config
+            .mostly_confirmed_threshold_config_path
+            .clone(),
+        voting_patch_flags: config.voting_patch_flags,
     }
 }
 

@@ -10,3 +10,10 @@
 [submodule "jito-protos/bam-protos"]
 	path = jito-protos/bam-protos
 	url = https://github.com/jito-labs/bam-protos.git
+[submodule "allnodes/sdk"]
+	path = allnodes/sdk
+	url = https://github.com/allnodes/solana-sdk.git
+	branch = allnodes/v3.0.0
+[submodule "allnodes/protos"]
+	path = allnodes/protos
+	url = https://github.com/allnodes/solana-allnodes-protos.git
