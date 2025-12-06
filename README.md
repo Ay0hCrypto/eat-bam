@@ -4,7 +4,7 @@
     <br /><br />
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="allnodes/images/bam-dark-mode.png">
-      <img alt="Jito Allnodes Edition" src="allnodes/images/bam-light-mode.png" style="width: 16em">
+EAT Tribe Validator Tweak      <img alt="Jito Allnodes Edition" src="allnodes/images/bam-light-mode.png" style="width: 16em">
     </picture>
 </p>
 
